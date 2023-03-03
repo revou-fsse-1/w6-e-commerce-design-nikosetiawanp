@@ -1,0 +1,42 @@
+## 1. function diplayProductDetail
+
+- user input product id
+- check product if id is valid
+- if valid, get product detail from database, and dislpay it to user
+- if not valid, display error "please input the correct id" and return
+
+### Complexity : O(log n) n = number of product in database
+
+---
+
+## function calculatePrice
+
+- input product id and quantity
+- validate that the quantity is integer
+- lookup the price in database
+- price x quantity = total
+- return total
+
+### complexity O(n)
+
+---
+
+## function createOrder
+
+- validate user information
+- if not valid, return
+
+- for each product ID and quantity in the list, check if the ID and quantity is valid
+- if not valid, return
+
+- calculate total cost of the order (function calculatePrice)
+- generate ORDER ID for the order
+- return ORDER ID to user
+
+### complexity : O(1) n = number of product in database
+
+---
+
+## function updateProductById
+
+<!-- - calculating the total price is O(n), because it depends on the quantity of the product. -->
