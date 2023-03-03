@@ -65,3 +65,11 @@ function createOrder(products)
 ### Complexity Analysis
 
 The complexity of createOrder(products) is O(n), because we need to loop through each product in the array. More products mean more loop to do.
+
+---
+
+## 3. Microservice Architecture
+
+### Diagram
+
+![Microservice Diagram](/images/microservice-architecture.jpg "Microservice Diagram")
